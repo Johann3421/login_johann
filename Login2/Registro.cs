@@ -47,8 +47,8 @@ namespace Login2
                         {
                             MessageBox.Show("Usuario Registrado");
                             this.Hide();
-                            Form n1 = new Form();
-                            n1.Show();
+                            user n = new user();
+                            n.Show();
                             // Aquí deberías mostrar la siguiente ventana o formulario
                         }
                         else

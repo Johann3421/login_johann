@@ -77,3 +77,8 @@ C:\Users\Alumno\Desktop\Login\Login2\obj\Debug\Login2.csproj.CoreCompileInputs.c
 C:\Users\Alumno\Desktop\Login\Login2\obj\Debug\Login2.csproj.CopyComplete
 C:\Users\Alumno\Desktop\Login\Login2\obj\Debug\Login2.exe
 C:\Users\Alumno\Desktop\Login\Login2\obj\Debug\Login2.pdb
+C:\Users\Alumno\Desktop\Login\Login2\obj\Debug\Login2.Pestaña.resources
+C:\Users\Alumno\Desktop\Login\Login2\bin\Debug\Login2.exe.manifest
+C:\Users\Alumno\Desktop\Login\Login2\bin\Debug\Login2.application
+C:\Users\Alumno\Desktop\Login\Login2\obj\Debug\Login2.exe.manifest
+C:\Users\Alumno\Desktop\Login\Login2\obj\Debug\Login2.application

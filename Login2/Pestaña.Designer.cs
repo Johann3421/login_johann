@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pestaña));
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.MenuVertical = new System.Windows.Forms.Panel();
@@ -51,8 +52,12 @@
             this.button6 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
+            this.labelhora = new System.Windows.Forms.Label();
+            this.labelfecha = new System.Windows.Forms.Label();
+            this.HoraFecha = new System.Windows.Forms.Timer(this.components);
             this.BarraTitulo.SuspendLayout();
             this.MenuVertical.SuspendLayout();
+            this.panelContenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -100,6 +105,8 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panelContenedor.Controls.Add(this.labelfecha);
+            this.panelContenedor.Controls.Add(this.labelhora);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Location = new System.Drawing.Point(220, 52);
             this.panelContenedor.Name = "panelContenedor";
@@ -344,6 +351,33 @@
             this.button7.Text = "Reportes";
             this.button7.UseVisualStyleBackColor = false;
             // 
+            // labelhora
+            // 
+            this.labelhora.AutoSize = true;
+            this.labelhora.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.labelhora.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labelhora.Location = new System.Drawing.Point(14, 456);
+            this.labelhora.Name = "labelhora";
+            this.labelhora.Size = new System.Drawing.Size(249, 91);
+            this.labelhora.TabIndex = 0;
+            this.labelhora.Text = "label1";
+            // 
+            // labelfecha
+            // 
+            this.labelfecha.AutoSize = true;
+            this.labelfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.labelfecha.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.labelfecha.Location = new System.Drawing.Point(22, 401);
+            this.labelfecha.Name = "labelfecha";
+            this.labelfecha.Size = new System.Drawing.Size(126, 46);
+            this.labelfecha.TabIndex = 1;
+            this.labelfecha.Text = "label2";
+            // 
+            // HoraFecha
+            // 
+            this.HoraFecha.Enabled = true;
+            this.HoraFecha.Tick += new System.EventHandler(this.HoraFecha_Tick);
+            // 
             // Pestaña
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -358,6 +392,8 @@
             this.Text = "Pestaña";
             this.BarraTitulo.ResumeLayout(false);
             this.MenuVertical.ResumeLayout(false);
+            this.panelContenedor.ResumeLayout(false);
+            this.panelContenedor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
@@ -391,5 +427,8 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label labelfecha;
+        private System.Windows.Forms.Label labelhora;
+        private System.Windows.Forms.Timer HoraFecha;
     }
 }

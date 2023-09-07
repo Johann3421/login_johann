@@ -102,14 +102,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Login2.exe" size="432104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Login2.exe" size="433128">
       <assemblyIdentity name="Login2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lZQ69cmGqwqkR5B93hu5a2at9CyVxtzg170uIKfP/wo=</dsig:DigestValue>
+        <dsig:DigestValue>YlYi7Kf/ZqRrlbP4iHSADv1sy3dLH34PeO7mODFvPk4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

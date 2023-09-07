@@ -41,5 +41,11 @@ namespace Login2
         {
             this.WindowState= FormWindowState.Minimized;
         }
+
+        private void HoraFecha_Tick(object sender, EventArgs e)
+        {
+            labelhora.Text = DateTime.Now.ToString("HH:mm:ss");
+            labelfecha.Text = DateTime.Now.ToString("dddd:MMMM:yyy");
+        }
     }
 }

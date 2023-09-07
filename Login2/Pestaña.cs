@@ -47,5 +47,13 @@ namespace Login2
             labelhora.Text = DateTime.Now.ToString("HH:mm:ss");
             labelfecha.Text = DateTime.Now.ToString("dddd:MMMM:yyy");
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Saliste con exito");
+            this.Hide();
+            user n = new user();
+            n.Show();
+        }
     }
 }

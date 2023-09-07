@@ -32,14 +32,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.cerrar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Muestra = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.user1 = new System.Windows.Forms.TextBox();
+            this.password = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Registrarme = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -67,6 +67,7 @@
             this.cerrar.Size = new System.Drawing.Size(49, 31);
             this.cerrar.TabIndex = 0;
             this.cerrar.UseVisualStyleBackColor = true;
+            this.cerrar.Click += new System.EventHandler(this.cerrar_Click);
             // 
             // pictureBox1
             // 
@@ -78,21 +79,26 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // Muestra
+            // user1
             // 
-            this.Muestra.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Muestra.Location = new System.Drawing.Point(99, 262);
-            this.Muestra.Name = "Muestra";
-            this.Muestra.Size = new System.Drawing.Size(271, 33);
-            this.Muestra.TabIndex = 2;
+            this.user1.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user1.Location = new System.Drawing.Point(99, 262);
+            this.user1.Name = "user1";
+            this.user1.Size = new System.Drawing.Size(271, 33);
+            this.user1.TabIndex = 2;
+            this.user1.TextChanged += new System.EventHandler(this.Muestra_TextChanged);
+            this.user1.Enter += new System.EventHandler(this.user1_Enter);
+            this.user1.Leave += new System.EventHandler(this.user1_Leave);
             // 
-            // textBox2
+            // password
             // 
-            this.textBox2.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(99, 373);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(271, 33);
-            this.textBox2.TabIndex = 3;
+            this.password.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password.Location = new System.Drawing.Point(99, 373);
+            this.password.Name = "password";
+            this.password.Size = new System.Drawing.Size(271, 33);
+            this.password.TabIndex = 3;
+            this.password.Enter += new System.EventHandler(this.password_Enter);
+            this.password.Leave += new System.EventHandler(this.password_Leave);
             // 
             // label1
             // 
@@ -124,6 +130,7 @@
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "Mostrar";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button1
             // 
@@ -151,21 +158,22 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "¿No estas Registrado?";
             // 
-            // button2
+            // Registrarme
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(195, 535);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 43);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Registrar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.Registrarme.BackColor = System.Drawing.Color.Red;
+            this.Registrarme.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.Registrarme.FlatAppearance.BorderSize = 0;
+            this.Registrarme.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DodgerBlue;
+            this.Registrarme.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue;
+            this.Registrarme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Registrarme.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Registrarme.Location = new System.Drawing.Point(195, 535);
+            this.Registrarme.Name = "Registrarme";
+            this.Registrarme.Size = new System.Drawing.Size(85, 43);
+            this.Registrarme.TabIndex = 9;
+            this.Registrarme.Text = "Registrar";
+            this.Registrarme.UseVisualStyleBackColor = false;
+            this.Registrarme.Click += new System.EventHandler(this.Registrarme_Click);
             // 
             // user
             // 
@@ -173,19 +181,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(450, 597);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Registrarme);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.Muestra);
+            this.Controls.Add(this.password);
+            this.Controls.Add(this.user1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "user";
-            this.Text = "Ingrese su Usuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -199,14 +208,14 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button cerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox Muestra;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox user1;
+        private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Registrarme;
     }
 }
 

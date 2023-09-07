@@ -33,8 +33,8 @@
             this.cerrar2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.Muestra2 = new System.Windows.Forms.TextBox();
+            this.n_password = new System.Windows.Forms.TextBox();
+            this.n_user = new System.Windows.Forms.TextBox();
             this.Guardar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -83,21 +83,21 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Ingrese su Usuario";
             // 
-            // textBox2
+            // n_password
             // 
-            this.textBox2.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(167, 175);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(181, 33);
-            this.textBox2.TabIndex = 7;
+            this.n_password.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n_password.Location = new System.Drawing.Point(167, 175);
+            this.n_password.Name = "n_password";
+            this.n_password.Size = new System.Drawing.Size(181, 33);
+            this.n_password.TabIndex = 7;
             // 
-            // Muestra2
+            // n_user
             // 
-            this.Muestra2.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Muestra2.Location = new System.Drawing.Point(167, 110);
-            this.Muestra2.Name = "Muestra2";
-            this.Muestra2.Size = new System.Drawing.Size(181, 33);
-            this.Muestra2.TabIndex = 6;
+            this.n_user.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n_user.Location = new System.Drawing.Point(167, 110);
+            this.n_user.Name = "n_user";
+            this.n_user.Size = new System.Drawing.Size(181, 33);
+            this.n_user.TabIndex = 6;
             // 
             // Guardar
             // 
@@ -114,6 +114,7 @@
             this.Guardar.TabIndex = 10;
             this.Guardar.Text = "Guardar";
             this.Guardar.UseVisualStyleBackColor = false;
+            this.Guardar.Click += new System.EventHandler(this.Guardar_Click);
             // 
             // Registro2
             // 
@@ -123,8 +124,8 @@
             this.Controls.Add(this.Guardar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.Muestra2);
+            this.Controls.Add(this.n_password);
+            this.Controls.Add(this.n_user);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Registro2";
@@ -141,8 +142,8 @@
         private System.Windows.Forms.Button cerrar2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox Muestra2;
+        private System.Windows.Forms.TextBox n_password;
+        private System.Windows.Forms.TextBox n_user;
         private System.Windows.Forms.Button Guardar;
     }
 }

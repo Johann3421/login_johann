@@ -48,12 +48,10 @@ namespace Login2
                     if (count == 1)
                     {
                         MessageBox.Show ("Inicio de sesión exitoso");
-                        this.Hide();
                         Pestaña p = new Pestaña();
-                        p.Nombre = nombre;
-                        p.Contraseña = contraseña;
-                        p.Show();
-                    }
+                    p.Show();
+                        this.Hide();
+                }
                     else
                     {
                         MessageBox.Show ( "Credenciales incorrectas. Inténtalo de nuevo.");

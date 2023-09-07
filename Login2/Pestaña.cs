@@ -13,19 +13,28 @@ namespace Login2
 
     public partial class Pestaña : Form
     {
-        public string Nombre { get; set; }
-        public string Contraseña { get; set; }
         public Pestaña()
         {
             InitializeComponent();
-            // En este punto, puedes usar las propiedades Nombre y Contraseña para mostrar los valores en controles de tu formulario.
-            labelNombre.Text = Nombre;
-            labelContraseña.Text = Contraseña;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnMaximizar.Visible= false;
+            btnRestaurar.Visible= true;
+        }
+
+        private void btnRestaurar_Click(object sender, EventArgs e)
+        {
+            this.WindowState=FormWindowState.Normal;
+            btnRestaurar.Visible= false;
+            btnMaximizar.Visible = true;
         }
     }
 }

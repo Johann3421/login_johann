@@ -129,6 +129,7 @@ namespace Login2
             this.Controls.Add(this.TuboArriba);
             this.Controls.Add(this.Player);
             this.Name = "flapyBird";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "flapyBird";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.flapyBird_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();

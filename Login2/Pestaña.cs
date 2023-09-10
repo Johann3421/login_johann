@@ -55,5 +55,13 @@ namespace Login2
             user n = new user();
             n.Show();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Juego 2");
+            flapyBird f = new flapyBird();
+            f.Show();
+            this.Hide();
+        }
     }
 }

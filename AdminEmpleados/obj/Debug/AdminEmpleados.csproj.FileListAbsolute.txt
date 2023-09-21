@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\bin\Debug\AdminEmpleados.exe.config
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\bin\Debug\AdminEmpleados.exe
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\bin\Debug\AdminEmpleados.pdb
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\bin\Debug\Guna.UI2.dll
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.SuggestedBindingRedirects.cache
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.Form1.resources
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.PL.frmDepartamentos.resources
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.PL.frmEmpleados.resources
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.Properties.Resources.resources
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.GenerateResource.cache
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.exe
+C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.pdb

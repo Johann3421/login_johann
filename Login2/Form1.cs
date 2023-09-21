@@ -36,7 +36,7 @@ namespace Login2
             string nombre, contraseña;
             nombre = user1.Text;
             contraseña = password.Text;
-            using (SqlConnection con = new SqlConnection("Data Source=DESKTOP-GDPV18V;Initial Catalog=LoginDB;Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection("Data Source=DESKTOP-7LDGQBD;Initial Catalog=LoginDB;Integrated Security=True"))
                 {
                     con.Open();
                     string query = "SELECT COUNT(1) FROM Usuarios WHERE nombre=@usuario AND Contraseña=@contrasena";

@@ -21,7 +21,7 @@ namespace Login2
 
         private void Guardar_Click(object sender, EventArgs e)
         {
-            using (SqlConnection con = new SqlConnection("Data Source=DESKTOP-GDPV18V;Initial Catalog=LoginDB;Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection("Data Source=DESKTOP-7LDGQBD;Initial Catalog=LoginDB;Integrated Security=True"))
             {
                 try
                 {

@@ -287,5 +287,11 @@
   <ItemGroup>
     <None Include="Resources\Arriba.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdminEmpleados\AdminEmpleados.csproj">
+      <Project>{0ef584a9-1f36-45f1-9879-6cde982e544d}</Project>
+      <Name>AdminEmpleados</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

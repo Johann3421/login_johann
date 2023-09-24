@@ -29,34 +29,43 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnEmpleados = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(166, 84);
+            this.button1.Image = global::AdminEmpleados.Properties.Resources._299100_screwdriver_wrench_icon;
+            this.button1.Location = new System.Drawing.Point(108, 103);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 99);
+            this.button1.Size = new System.Drawing.Size(153, 100);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Alumnos";
+            this.button1.Text = "Modificar Grado de Alumnos";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnEmpleados
             // 
-            this.button2.Location = new System.Drawing.Point(366, 84);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 99);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Maestros";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEmpleados.Image = global::AdminEmpleados.Properties.Resources._285641_id_user_icon;
+            this.btnEmpleados.Location = new System.Drawing.Point(322, 103);
+            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEmpleados.Name = "btnEmpleados";
+            this.btnEmpleados.Size = new System.Drawing.Size(145, 100);
+            this.btnEmpleados.TabIndex = 1;
+            this.btnEmpleados.Text = "Alumnos";
+            this.btnEmpleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnEmpleados.UseVisualStyleBackColor = true;
+            this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 327);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(580, 313);
+            this.Controls.Add(this.btnEmpleados);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -67,7 +76,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnEmpleados;
     }
 }
 

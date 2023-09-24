@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Login2.exe.manifest" size="27713">
+    <dependentAssembly dependencyType="install" codebase="Login2.exe.manifest" size="29029">
       <assemblyIdentity name="Login2.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>QpcRFNh2b5cXr6CO0sc0GLAxI/qG9X/t34gUm6BzEgY=</dsig:DigestValue>
+        <dsig:DigestValue>N1zzTT7+QS/SU95vJ0jzRYyNvUu9ssfGCj+SP8ck5Sc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

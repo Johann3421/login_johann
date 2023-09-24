@@ -13,3 +13,17 @@ C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.cs
 C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.CopyComplete
 C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.exe
 C:\Users\USUARIO\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.pdb
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\bin\Debug\AdminEmpleados.exe.config
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\bin\Debug\AdminEmpleados.exe
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\bin\Debug\AdminEmpleados.pdb
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\bin\Debug\Guna.UI2.dll
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.AssemblyReference.cache
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.Form1.resources
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.PL.frmDepartamentos.resources
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.PL.frmEmpleados.resources
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.Properties.Resources.resources
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.GenerateResource.cache
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.CopyComplete
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.exe
+C:\Users\Marco\Desktop\login_johann\AdminEmpleados\obj\Debug\AdminEmpleados.pdb

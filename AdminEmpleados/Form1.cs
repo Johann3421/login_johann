@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AdminEmpleados.PL;
 
 namespace AdminEmpleados
 {
@@ -15,6 +16,18 @@ namespace AdminEmpleados
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmDepartamentos formularioDepartamentos = new frmDepartamentos();
+            formularioDepartamentos.Show();
+        }
+
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+            frmEmpleados formularioEmpleados = new frmEmpleados();
+            formularioEmpleados.Show();
         }
     }
 }

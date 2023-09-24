@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\AdminEmpleados",
+    "\\AdminEmpleados\\DAL",
     "\\Login2"
   ],
-  "SelectedNode": "\\Login2\\Form1.cs",
+  "SelectedNode": "\\AdminEmpleados\\DAL\\ConexionDAL.cs",
   "PreviewInSolutionExplorer": false
 }

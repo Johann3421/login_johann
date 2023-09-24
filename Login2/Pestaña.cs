@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AdminEmpleados;
 
 namespace Login2
 {
@@ -61,6 +62,14 @@ namespace Login2
             MessageBox.Show("Juego 2");
             flapyBird f = new flapyBird();
             f.Show();
+            this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Entrando al crud de Empleados");
+            AdminEmpleados.Form1 f1 = new AdminEmpleados.Form1();
+            f1.Show();
             this.Hide();
         }
     }
